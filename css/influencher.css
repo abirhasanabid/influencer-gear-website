@@ -91,16 +91,23 @@ header {
 .banner-img-container {
     margin-top: 50px;
     margin-bottom: 59px;
-    max-width: 500px;
+    max-width: px;
 }
 
 .banner-img {
-    background-image: url(../images/main-camera.png), url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
-    width: 475px;
-    height: 475px;
 
+}
+.banner-bg-img{
+    position: relative;
+    
+}
+.main-camera{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .site-logos {
